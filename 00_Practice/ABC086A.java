@@ -1,16 +1,18 @@
 import java.util.*;
-public class Practice_01 {
+public class ABC086A {
 	public static void main(String[] args){
+		//ABC086A
 		Scanner sc = new Scanner(System.in);
-		// 整数の入力
-		int a = sc.nextInt();
 		// スペース区切りの整数の入力
 		int b = sc.nextInt();
 		int c = sc.nextInt();
-		// 文字列の入力
-		String s = sc.next();
+
+		String out;
+		if(b * c % 2 == 0) out = "Even";
+		else out = "Odd";
+		 
 		// 出力
-		System.out.println((a+b+c) + " " + s);
+		System.out.println(out);
 
 		sc.close();
 	}

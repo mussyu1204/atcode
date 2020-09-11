@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Practice_03 {
+public class ABC081A {
 	public static void main(String[] args) {
 		//ABC081A
 		Scanner sc = new Scanner(System.in);
